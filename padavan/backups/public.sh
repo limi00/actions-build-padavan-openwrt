@@ -6,7 +6,7 @@ set -u
 # 1.修改一些默认参数 ./user/shared/defaults.h（需要不同设备不同拷贝到相应sh文件就好)
 USER_NAME="admin"                       # 用户名 admin
 USER_PASSWORD=$USER_NAME                # 用户密码 admin
-LAN_IP="192.168.3"                      # lan 地址 192.168.3.1 一定别写后面的 .1
+LAN_IP="192.168.31"                      # lan 地址 192.168.31.1 一定别写后面的 .1
 WIFI_PASSWORD="1234567890"              # wifi密码，切记密码最少8位 admin
 VERSION_TIME=$(date "+%Y%m%d")          # 自动时间更新时版本号: 20200320
 DEFAULT_PATH="./user/shared/defaults.h" # 默认文件配置目录
